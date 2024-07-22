@@ -1,0 +1,32 @@
+{
+  "name": "drive-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc & node .",
+    "watch": "tsc -w",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiasGFirst/drive-app.git"
+  },
+  "author": "riasg.first",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RiasGFirst/drive-app/issues"
+  },
+  "homepage": "https://github.com/RiasGFirst/drive-app#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.11",
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.3"
+  }
+}
